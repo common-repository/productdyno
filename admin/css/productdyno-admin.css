@@ -1,0 +1,291 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.productdyno-main-container {
+	margin: 0 auto;
+	padding: 40px;
+	max-width: 1200px;
+}
+
+.productdyno_page_title h1 {
+	font-weight: 300;
+	margin-bottom: 0px;
+	color: #676666;
+}
+
+#lkpr-admin-body .productdyno-main-container {
+	font-family: 'Raleway', arial, helvetica !important;
+}
+
+.productdyno_logo {
+	width: 200px;
+	margin-bottom: 25px;
+}
+
+.dashboard-menu {
+	height: auto;
+	font-family: "Raleway", 'arial';
+	font-size: 1.8em;
+	color: #fff;
+	margin-top: 40px;
+}
+
+.dashboard-menu ul li:first-child {
+	border-bottom: solid 5px #00AEEF;
+}
+
+.dashboard-menu ul li:nth-child(2) {
+	border-bottom: solid 5px #00AEEF;
+}
+
+.dashboard-menu ul li:nth-child(3) {
+	border-bottom: solid 5px #00AEEF;
+}
+
+.dashboard-menu ul li:nth-child(4) {
+	border-bottom: solid 5px #00AEEF;
+}
+
+.dashboard-menu ul li:nth-child(5) {
+	border-bottom: solid 5px #00AEEF;
+}
+
+.dashboard-menu li {
+	width: 200px;
+	display: inline-block;
+	height: 130px;
+	background: #fff;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.dashboard-menu li a {
+	text-decoration: none;
+	color: #676666;
+}
+
+.dashboard-menu i {
+	display: block;
+	line-height: 2.2em;
+	color: #00aeef;
+	font-size: 40px;
+}
+
+.productdyno_logo a {
+	padding: 12px 0px 0px 0px;
+}
+
+.productdyno_logo img {
+	width: 100%;
+	height: auto;
+}
+
+.productdyno_page_title {
+	font-family: 'Raleway', arial, helvetica !important;
+	/*text-transform: uppercase;*/
+}
+
+.productdyno_page_title p {
+	/*font-family: 'Open Sans', arial, helvetica;*/
+	text-transform: none;
+}
+
+.productdyno-mt-10 {
+	margin-top: 10px;
+}
+
+.productdyno-main-container a {
+	text-decoration: none;
+}
+
+.productdyno-mt-20 {
+	margin-top: 20px;
+}
+
+.productdyno-form {
+	width: 90%;
+	/*font-family: 'Open Sans', arial, helvetica !important;*/
+}
+
+.productdyno-form .form-label fieldset {
+	position: relative;
+	margin-bottom: 3px;
+}
+
+.productdyno-form fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.productdyno-form .form-label fieldset:first-child input {
+	border-radius: 4px 4px 0 0;
+}
+
+.productdyno-form input {
+	display: block;
+	width: 100%;
+	height: 3em;
+	padding: 16px 8px;
+	border: 0;
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	background: rgba(255, 255, 255, 0.97);
+	color: #676666;
+	outline: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	/* margin-bottom: 5px; */
+	border-radius: 3px;
+}
+
+.productdyno-form .form-label label {
+	position: absolute;
+	top: 15px;
+	left: 8px;
+	color: #2c2c2c;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.productdyno-button.productdyno-button-block {
+	width: 100%;
+}
+
+.productdyno-button.productdyno-button-small {
+	padding: 10px 20px 12px 20px;
+	font-size: 12px;
+}
+
+.productdyno-button {
+	align-self: center;
+	padding: 20px 30px 18px 30px;
+	color: white;
+	font-family: 'Open Sans', arial;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #00aeef !important;
+	border-radius: 3px;
+	transition: all 0.1s ease-in-out;
+	cursor: pointer;
+	display: inline-block;
+	border: 0;
+}
+
+.productdyno-form .form-css-label input[data-empty="false"]+label,
+.form-css-label input:valid+label,
+.form-css-label input:focus+label {
+	color: #676666;
+}
+
+.productdyno-form input {
+	color: #2c2c2c;
+}
+
+.start_message {
+	padding: 5px;
+	border-radius: 2px;
+	padding-left: 0px;
+}
+
+.start_message p {
+	color: #9e9d9d;
+}
+
+.back-btn {
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+.back-btn a {
+	color: #00aeef;
+}
+
+.pd_hide {
+	display: none !important;
+}
+
+.pd-mt-10 {
+	margin-top: 10px !important;
+}
+
+.pd-dropdown {
+	/*width: 99%; */
+	/*margin-top:5px;*/
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/*Css loader */
+
+.lds-ellipsis {
+  /*display: inline-block;*/
+  position: relative;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  margin: 0 auto;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 27px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #d0d0d0;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(19px, 0);
+  }
+}
